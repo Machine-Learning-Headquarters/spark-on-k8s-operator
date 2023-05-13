@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ARG SPARK_IMAGE=gcr.io/spark-operator/spark:v3.1.1
+ARG SPARK_IMAGE=docker.io/mlhq/mlhq:8a74396c1dad71492659c8b4681fa87f31e71054
 
 FROM golang:1.19.2-alpine as builder
 
